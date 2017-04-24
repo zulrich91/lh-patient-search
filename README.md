@@ -19,25 +19,24 @@ To setup you'll need to build from source.
 
 2. Install dependencies
 
-` cd lh-patient-search`
+* ` cd lh-patient-search`
 
-` bower install `
+* ` bower install `
 
 3. Package
 
-` jar -cf lh-patient-search.zip .`
-` zip -r lh-patient-search.zip .`
+  Run any of these commands to package the app before deployment.
+  
+* ` jar -cf lh-patient-search.zip .`
+* ` zip -r lh-patient-search.zip .`
+
 **Note**: The packaging commands end with a full stop. 
 
 4. Upload to your toolkit server and navigate to
 
 ` http://localhost:8080/lh-toolkit/owa/lh-patient-search/index.html `
 
-**Note**: The link depends on the name of your zip package. 
+**Note**: The link depends on the name of your zip package.** 
 
-You should see something like
-
-![alt tag](http://picpaste.com/pics/Screen_Shot_2017-03-31_at_3.39.12_PM-W7uLhlGE.1490971189.png)
-
-**Note: The app is still under development
+**Note: The app is still under development**
 
