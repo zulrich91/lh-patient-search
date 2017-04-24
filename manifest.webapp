@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "name": "Patient Search",
+  "description": "LibreHealth OWA for searching patients",
+  "launch_path": "index.html",
+  "icons": {
+    "48": "/img/lh-logo.png"
+  },
+  "developer": {
+    "name": "Tchuenkam Ulrich",
+    "url": "https://github.com/zulrich91/lh-patient-search"
+  },
+  "default_locale": "en",
+    "activities": {
+      "openmrs": {
+        "href": "*"
+      }
+    }
+}

@@ -1,0 +1,32 @@
+
+<head>
+  <title>Patient Results</title>
+  <link rel="import" href="../bower_components/polymer/polymer.html">
+  <link rel="stylesheet" href="../bower_components/datatables.net-dt/css/jquery.dataTables.min.css">
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+  <script src="../js/patient.js"></script>
+</head>
+
+<dom-module id="lh-patient-search-results">
+    <template>               
+          <table id="patientTable">
+            <thead>
+              <tr>
+              	<th> Identifier</th>
+              	<th> Name </th>
+              	<th> Gender</th>
+              	<th> Age</th>
+              	<th> Birthday</th>
+              </tr>
+            </thead>                          
+          </table>  
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: "lh-patient-search-results",       
+    });
+</script>
+

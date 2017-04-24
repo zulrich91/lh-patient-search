@@ -1,0 +1,24 @@
+{
+  "name": "lh-patient-search",
+  "homepage": "https://github.com/zulrich91/lh-patient-search",
+  "authors": [
+    "Tchuenkam Ulrich <ulrichmobi2@gmail.com>"
+  ],
+  "description": "Find patients",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {   
+    "polymer": "Polymer/polymer#^1.0.0",
+    "iron-ajax": "PolymerElements/iron-ajax",
+    "iron-form": "PolymerElements/iron-form",
+    "jquery": "^3.2.1",
+    "datatables.net": "^1.10.15",
+    "datatables.net-dt": "^3.2.2"
+  }
+}
